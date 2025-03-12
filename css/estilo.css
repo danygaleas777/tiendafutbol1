@@ -1,0 +1,39 @@
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+}
+nav{
+   
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+.encabezad{
+background-color:rgb(97, 103, 103) ;
+color:rgb(15, 67, 50);
+text-align: center;
+}
+
+.elementos-nav{
+background-color:rgb(34, 49, 69);
+/*eliminar estilos de los links*/
+list-style-type: none;
+
+}
+.links-nav{
+display:inline;
+
+
+}
+
+nav a{
+    /*para quitar las lineas que generan los links*/
+
+text-decoration:none;
+color:rgb(0, 255, 55);
+margin: 0px 25px 5px 25px;
+}
+nav a:hover{
+
+    color:deepskyblue;
+}
